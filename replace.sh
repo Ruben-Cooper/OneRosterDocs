@@ -8,10 +8,10 @@ cd docs
 
 ## MODIFY THESE WITH YOUR VALUES
 
-MY_TITLE='Foo Bar'
-MY_SUBTITLE='Foos the bar all the buzz'
-MY_USERNAME='MyGitHubUsername'
-MY_PROJECT_SLUG='foo-bar'
+MY_TITLE='T075 IFB399 Docs for OneRoster Plug-In'
+MY_SUBTITLE='Designed for IFB399 at QUT'
+MY_USERNAME='t075-ifb399'
+MY_PROJECT_SLUG='t075-ifb399-docs'
 
 ## DO NOT MODIFY AFTER THE LINE ABOVE
 
