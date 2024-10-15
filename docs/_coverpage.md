@@ -2,23 +2,17 @@
   T075 IFB399 Docs for OneRoster Plug-In  <!-- TODO: Update title -->
 </h1>
 
-[![GitHub tags](https://img.shields.io/github/tag/t075-ifb399/docsifyjs-template.svg)](https://GitHub.com/t075-ifb399/docsifyjs-template/tags/) <!-- TODO: Update username and repo name -->
+[![GitHub tags](https://img.shields.io/github/tag/t075-ifb399/docsifyjs-template.svg)](https://github.com/catalyst/moodle-enrol_oneroster) <!-- TODO: Update username and repo name -->
 
->  Starter template for a Markdown-based docs site <!-- TODO: Replace with your description -->
+>  Easily synchronize SIS data between OneRoster v1.1 compliant systems and Moodle using CSV files. This documentation provides all the information you need to set up and use the OneRoster CSV plugin. <!-- TODO: Replace with your description -->
 
 
 <!-- TODO: Update to match your project's benefits/features. Git emojis work great here. -->
 
-- :hourglass_flowing_sand: Quickly set up an elegant, responsive site
-- :open_file_folder: Use your markdown docs as content
-- :sparkles: No compilation step and no templating syntax to learn
-- :nut_and_bolt: Built on [DocsifyJS](https://docsify.js.org/)
-- :pushpin: The library loads in the browser - no local dependencies
-- :cloud: Serve locally and on GitHub Pages or Netlify
+- :hourglass_flowing_sand: Quickly sync enrollment and organizational data from CSV files to Moodle
+- :open_file_folder: Simple, organized markdown docs for easy reference
+- :sparkles: No complex setup—just upload your CSVs and start syncing
 
-
-[Use this template](https://github.com/t075-ifb399/docsifyjs-template/generate) <!-- TODO: Remove on your copy of this template.-->
-[Get Started](#docsifyjs-template) <!-- TODO: Use ID of your homepage heading -->
 
 <!-- TODO: Set your background color or image. -->
 ![color](#b3d9f8)
