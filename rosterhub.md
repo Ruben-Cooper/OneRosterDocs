@@ -83,7 +83,7 @@ Note: Place this under /sites/rosterhub if using the provided docker files.
 5. **Connect RosterHub to the OneRoster PlugIn on Moodle**
    - Navigate to the settings of OneRoster and make a connection to the new RosterHub server.
    - An Example Configuration is as follows:<br>
-     ![connection](/img//connection.png)
+     ![connection](/img/connection.png)
 
 6. **Import CSV Files**
    - Step 1: Import the OneRoster CSV files this can be completed by placing a zip file named ```oneroster.zip``` containing the OneRoster CSV Files into /opt/roster-hub/storage/csv on the RosterHub docker container.
@@ -113,7 +113,7 @@ Note: this file might be different depending on the configured environment this 
    ```
 3. Restart the rails server by running: ```rails restart```
 
-Troubleshooting Suggestions
+**Troubleshooting Suggestions:**<br>
 If further troubleshooting is required test the API with curl alternatively test with API Platforms such as Postman or Insomnia on your localmachine. Otherwise consult the RosterHub Github Repo.
 
 Example 1:

@@ -23,7 +23,7 @@ This plugin update was created for our final year IT capstone project and is abl
 > This is used as a OneRoster RestAPI server in order to test the API functionalities of the plugin.<br>
 > Note: This is not required for CSV uploads and is stricly provided for testing use cases.
 
-[RosterHub Install Guide](/rosterhub)
+<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/rosterhub" target="_blank">RosterHub Install Guide</a>
 
 
 
