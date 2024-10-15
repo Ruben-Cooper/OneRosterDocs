@@ -16,8 +16,9 @@ The main reason for the use of rosterhub is due to its ability to convert CSV da
 
 ## Installation Steps
 
-1. **Adding the RosterHub docker container**
+1. **Adding the RosterHub docker container:**<br>
   Create a new Dockerfile with the following contents:
+
 ```Dockerfile
 FROM ubuntu:22.04
 
@@ -41,6 +42,7 @@ RUN rails db:migrate
 CMD ["bin/rails", "server", "-b", "0.0.0.0"]
 
 ```
+
 Note: Place this under /sites/rosterhub if using the provided docker files.
 
 2. **Update the docker compose file**
