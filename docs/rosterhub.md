@@ -75,19 +75,19 @@ Note: Place this under /sites/rosterhub if using the provided docker files.
    ``` 
    curl -i http://rosterhub:3000/oauth/token -F grant_type="client_credentials" -F client_id="admin" -F client_secret="F9RYtkHLyjK4mW4K5Rl5uzTZo0G3XfqW"
    ```
-   - This command should output a bearer token like so: 
+   - This command should output a bearer token like so:<br>
      ![bearer](/img/tokenoutput.png)
   Note: If an error occurs due to a blocked host, consult the troubleshooting section at the end of this guide.
 <br>
 
 5. **Connect RosterHub to the OneRoster PlugIn on Moodle**
    - Navigate to the settings of OneRoster and make a connection to the new RosterHub server.
-   - An Example Configuration is as follows:
+   - An Example Configuration is as follows:<br>
      ![connection](/img//connection.png)
 
 6. **Import CSV Files**
    - Step 1: Import the OneRoster CSV files this can be completed by placing a zip file named ```oneroster.zip``` containing the OneRoster CSV Files into /opt/roster-hub/storage/csv on the RosterHub docker container.
-   - Step 2: Execute the CSVImport bash script, this will import the CSV files into RosterHub's SQL Database:
+   - Step 2: Execute the CSVImport bash script, this will import the CSV files into RosterHub's SQL Database:<br>
     ![bash](/img/Bashscript.png)
 
 7. **Run OneRoster full_sync**
@@ -98,13 +98,13 @@ Note: Place this under /sites/rosterhub if using the provided docker files.
 
 ## Troubleshooting
 
-If you encounter issues with Blocked Hosts as seen here:
+If you encounter issues with Blocked Hosts as seen here:<br>
 ![blockedhost](/img/blocked.png)
 
 Follow these steps to resolve:
 1. On the RosterHub container open the config/environments/development.rb file.
 
-Note: this file might be different depending on the configured environment this can be found by running:
+Note: this file might be different depending on the configured environment this can be found by running:<br>
 ![env](/img/env.png)
 
 2. Add the rosterhub:3000 to the whitelist by adding the following line to the file:
@@ -113,11 +113,11 @@ Note: this file might be different depending on the configured environment this 
    ```
 3. Restart the rails server by running: ```rails restart```
 
-#### Troubleshooting Suggestions
+Troubleshooting Suggestions
 If further troubleshooting is required test the API with curl alternatively test with API Platforms such as Postman or Insomnia on your localmachine. Otherwise consult the RosterHub Github Repo.
 
 Example 1:
-An example of testing the API using Postman from the local machine can be seen here:
+An example of testing the API using Postman from the local machine can be seen here:<br>
 ![postman](/img/postman.png)
 
 Example 2:
@@ -126,5 +126,5 @@ Testing the API on the Moodle Container by running:
 curl -i http://rosterhub:3000/oauth/token -F grant_type="client_credentials" -F client_id="admin" -F client_secret="F9RYtkHLyjK4mW4K5Rl5uzTZo0G3XfqW"
 ```
 
-This outputs:
+This outputs:<br>
 ![apioutput](/img/output.png)
