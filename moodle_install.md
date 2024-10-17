@@ -26,11 +26,26 @@ This installation guide is provided for any person that wishes to host a Moodle 
 
 1. **Install Moodle**
 - Step 1: Visit https://moodle.localhost and follow the installation steps until you get to the database setup screen.
+  - Note: If you encounter the following error: 
+   ```
+   Parent directory (/var/www) is not writeable. Data directory (/var/www/moodledata) cannot be created by the installer. 
+    ```
+   - On the Moodle docker container execute: ```chown -R www-data:www-data /var/www```
 - Step 2: Select PostgreSQL and fill in the relevant fields seen here:
-   ![pgsql](/img/pgsql.png)
+    ```
+    dbhost = 'capstone-moodle-db'
+    dbname = 'moodle'
+    dbuser = 'moodle_user'
+    dbpass = 'password'
+    prefix = 'mdl_'
+    ```
 - Step 3: Continue to follow the installation steps.
-<br>
-  Moodle will now be fully installed and ready to use and develop, look at the next section for programming best practices. 
+
+Moodle will now be fully installed and ready to use and develop, look at the next section for programming best practices. 
 
 
 ## Troubleshooting
+
+1. If you encounter errors due to slow read and write speeds consider placing the docker-capstone directory into the /home/{user} directory (only necessary for WSL users). 
+   - Step 1: Run on WSL terminal: cp <capstonedir> ~/docker-capstone 
+   - Step 2: Remove all pre-existing images and containers on Docker and run ```docker compose up -d```, making sure you are in the new directory. 
