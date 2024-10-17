@@ -41,11 +41,12 @@ This plugin update was created for our final year IT capstone project and is abl
 
 
 ## Installation
-
+> This section provides a simple guide to installing and configuring the One Roster plugin in Moodle.
 - Step 1: Navigate to: Site Administration → Plugins → Install plugins
-- Step 2: To configure the plugin visit: Site Administration → Plugins → Enrolments → One Roster
-- Step 3: Feel free to navigate through the rest of the documentation on this page for further information.
+- Step 2: Upload the latest version of the plugin as a zip file and follow the install process.
+- Step 3: To configure the plugin visit: Site Administration → Plugins → Enrolments → One Roster
 
+Explore the rest of the documentation on this page for more details and additional information.
 
 ## Demo
 > This is a demo video on how the OneRoster plug-in processes CSV data to integrate student information into the Moodle environment.
