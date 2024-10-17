@@ -16,15 +16,11 @@ This plugin update integrates the OneRoster v1.1 CSV standard with Moodle, allow
 
 This plugin update was created for our final year IT capstone project and is able to be created from the help of our Industry Partner at Catalyst IT Australia as well as through the support of QUT.
 
-
-
-
 ## Create a RosterHub Server with Docker
 > This is used as a OneRoster RestAPI server in order to test the API functionalities of the plugin.
 > <b>Note: This is not required for CSV uploads and is stricly provided for testing use cases.</b>
 
 <a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/rosterhub" target="_blank">RosterHub Install Guide</a>
-
 
 
 ## An Overview on How the OneRoster Plug-In Works
@@ -36,22 +32,13 @@ This plugin update was created for our final year IT capstone project and is abl
 
 _TODO: Add your instructions here or link to an installation.md page._
 
-
 ## Demo
+> This is a demo video on how the OneRoster plug-in processes CSV data to integrate student information into the Moodle environment.
 
-This section showcases some functionality of Docsify.
+<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/demo" target="_blank">Overview on How the OneRoster Plug-In Works</a>
 
 ## Error Messages
 > This are all the error messages present with the OneRoster Plug-in 
 
 <a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/error_messages" target="_blank">Error Message Guide</a>
 
-```bash
-echo "Hello, World"
-```
-
-> Sample quote
-
-?> Sample hint
-
-!> Sample warning 
