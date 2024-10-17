@@ -20,32 +20,31 @@ This plugin update was created for our final year IT capstone project and is abl
 
 
 ## Create a RosterHub Server with Docker
-> This is used as a OneRoster RestAPI server in order to test the API functionalities of the plugin.<br>
-> Note: This is not required for CSV uploads and is stricly provided for testing use cases.
+> This is used as a OneRoster RestAPI server in order to test the API functionalities of the plugin.
+> <b>Note: This is not required for CSV uploads and is stricly provided for testing use cases.</b>
 
 <a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/rosterhub" target="_blank">RosterHub Install Guide</a>
 
 
 
+## An Overview on How the OneRoster Plug-In Works
+> The OneRoster plug-in processes CSV data to integrate student information into the Moodle environment according to the OneRoster v1.1 specification.
 
-## Preview
-
-_TODO: Complete with your content - such as a screenshot of your app or command-line usage. You can also rename Preview to Sample._
-
+<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/csv_plug_in_overview" target="_blank">Overview on How the OneRoster Plug-In Works</a>
 
 ## Installation
 
 _TODO: Add your instructions here or link to an installation.md page._
 
 
-## Usage
-
-_TODO: Add your instructions here or link to a usage.md page._
-
-
 ## Demo
 
 This section showcases some functionality of Docsify.
+
+## Error Messages
+> This are all the error messages present with the OneRoster Plug-in 
+
+<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/error_messages" target="_blank">Error Message Guide</a>
 
 ```bash
 echo "Hello, World"
