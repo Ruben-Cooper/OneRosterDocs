@@ -47,5 +47,5 @@ Moodle will now be fully installed and ready to use and develop, look at the nex
 ## Troubleshooting
 
 1. If you encounter errors due to slow read and write speeds consider placing the docker-capstone directory into the /home/{user} directory (only necessary for WSL users). 
-   - Step 1: Run on WSL terminal: cp <capstonedir> ~/docker-capstone 
+   - Step 1: Run on WSL terminal: ```cp <capstonedir> ~/docker-capstone ```
    - Step 2: Remove all pre-existing images and containers on Docker and run ```docker compose up -d```, making sure you are in the new directory. 
