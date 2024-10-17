@@ -3,6 +3,11 @@
 > The documentation below will detail how to install the plugin, its dependencies as well as provide additional guides for future contributers.
 
  <!-- TODO: Update repo links and change license type if needed. -->
+
+[![Github](https://img.shields.io/badge/OneRoster%20Github%20Repo-8A2BE2)](https://github.com/moodlehq/moodle-enrol_oneroster)
+[![Github](https://img.shields.io/badge/OneRoster%20Moodle%20Plugins%20Directory-cc6600)](https://moodle.org/plugins/enrol_oneroster)
+
+
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/t075-ifb399/docsifyjs-template/blob/master/README#license)
 
 [![Made with latest Docsify](https://img.shields.io/npm/v/docsify/latest?label=docsify)](https://docsify.js.org/)
@@ -37,7 +42,7 @@ This plugin update was created for our final year IT capstone project and is abl
 
 ## Installation
 
-_TODO: Add your instructions here or link to an installation.md page._
+Step 1: 
 
 ## Demo
 > This is a demo video on how the OneRoster plug-in processes CSV data to integrate student information into the Moodle environment.
