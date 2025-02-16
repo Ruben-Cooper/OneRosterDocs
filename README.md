@@ -4,7 +4,7 @@
 
  <!-- TODO: Update repo links and change license type if needed. -->
 
-[![Github](https://img.shields.io/badge/OneRoster%20Github%20Repo-8A2BE2)](https://github.com/moodlehq/moodle-enrol_oneroster)
+[![Github](https://img.shields.io/badge/OneRoster%20Github%20Repo-8A2BE2)](https://github.com/catalyst/moodle-enrol_oneroster)
 [![Github](https://img.shields.io/badge/OneRoster%20Moodle%20Plugins%20Directory-cc6600)](https://moodle.org/plugins/enrol_oneroster)
 
 
@@ -19,7 +19,7 @@
 
 This plugin update integrates the OneRoster v1.1 CSV standard with Moodle, allowing seamless synchronization of OneRoster data through CSV files. The plugin is designed to streamline data management and enhance interoperability between your Student Information System (SIS) and Moodle. For documentation and guides on using the CSV version, explore the resources below.
 
-This plugin update was created for our final year IT capstone project and is able to be created from the help of our Industry Partner at Catalyst IT Australia as well as through the support of QUT.
+This plugin update was created for our final year IT capstone project and was able to be created from the help of our Industry Partner at Catalyst IT Australia as well as through the support of QUT.
 
 
 ## An Overview on How the OneRoster Plug-In Works
