@@ -25,19 +25,19 @@ This plugin update was created for our final year IT capstone project and was ab
 ## An Overview on How the OneRoster Plug-In Works
 > The OneRoster plug-in processes CSV data to integrate student information into the Moodle environment according to the OneRoster v1.1 specification.
 
-<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/csv_plug_in_overview" target="_blank">Overview on How the OneRoster Plug-In Works</a>
+<a href="https://ruben-cooper.github.io/OneRosterDocs/#/csv_plug_in_overview" target="_blank">Overview on How the OneRoster Plug-In Works</a>
 
 ## Create a RosterHub Server with Docker
 > This is used as a OneRoster RestAPI server in order to test the API functionalities of the plugin.
 > <b>Note: This is not required for CSV uploads and is stricly provided for testing use cases.</b>
 > 
 
-<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/rosterhub" target="_blank">RosterHub Install Guide</a>
+<a href="https://ruben-cooper.github.io/OneRosterDocs/#/rosterhub" target="_blank">RosterHub Install Guide</a>
 
 ## Moodle Docker Install
 > This guide explains how to set up a containerized Moodle 3.11 server using Docker on Windows for plugin development.
 
-<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/moodle_install" target="_blank">Moodle Docker Install Guide</a>
+<a href="https://ruben-cooper.github.io/OneRosterDocs/#/moodle_install" target="_blank">Moodle Docker Install Guide</a>
 
 
 ## Installation
@@ -51,10 +51,10 @@ Explore the rest of the documentation on this page for more details and addition
 ## Demo
 > This is a demo video on how the OneRoster plug-in processes CSV data to integrate student information into the Moodle environment.
 
-<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/demo" target="_blank">Overview on How the OneRoster Plug-In Works</a>
+<a href="https://ruben-cooper.github.io/OneRosterDocs/#/demo" target="_blank">Overview on How the OneRoster Plug-In Works</a>
 
 ## Error Messages
 > This are all the error messages present with the OneRoster Plug-in 
 
-<a href="https://ruben-cooper.github.io/T075-IFB399-Docs/#/error_messages" target="_blank">Error Message Guide</a>
+<a href="https://ruben-cooper.github.io/OneRosterDocs/#/error_messages" target="_blank">Error Message Guide</a>
 
